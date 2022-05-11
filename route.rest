@@ -1,0 +1,28 @@
+GET http://localhost:3000/subscribers/
+
+###
+
+GET http://localhost:3000/subscribers/627b9d6d6682ad87b67e047a
+
+###
+
+POST http://localhost:3000/subscribers/
+Content-Type: application/json
+
+{
+    "name": "Amazinf Preson",
+    "subscribedToChanels": "WDS"
+}
+
+### 
+
+DELETE  http://localhost:3000/subscribers/627b9d6d6682ad87b67e047a
+
+### 
+
+PATCH http://localhost:3000/subscribers/627ba0496682ad87b67e047d
+Content-Type: application/json
+
+{
+    "name": "Amazinf Pzxcacascreson"
+}
